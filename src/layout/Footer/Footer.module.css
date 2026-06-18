@@ -1,6 +1,6 @@
 .footer{
-    background-color: var(--blue);
-    padding: 4.8rem 0;
+    background-color: var(--black);
+    padding: 4.8rem 0 1rem 0;
     color: var(--white);
 }
 .content{
@@ -50,7 +50,7 @@
 }
 
 .copyRight{
-    padding-top: 3.2rem;
+    padding-top: 1rem;
     width: fit-content;
     margin: auto;
 }
@@ -59,4 +59,9 @@
   .content {
     grid-template-columns:1fr;
   }
+}
+@media (max-width: 768px) {
+.copyRight{
+  font-size: .9rem;
+}
 }

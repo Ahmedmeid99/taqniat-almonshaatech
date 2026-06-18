@@ -47,8 +47,8 @@
 /* Hover: float up + glow */
 .btn:hover {
   transform: translateY(-5px) scale(1.08);
-  box-shadow: 0 14px 28px rgba(21, 93, 252, 0.4), 0 8px 18px rgba(0, 184, 219, 0.3);
-  background: linear-gradient(135deg, #1243d4, #00a8cc);
+  /* box-shadow: 0 14px 28px rgba(21, 93, 252, 0.4), 0 8px 18px rgba(0, 184, 219, 0.3); */
+  /* background: linear-gradient(135deg, #1243d4, #00a8cc); */
 }
 
 /* Click feedback */

@@ -7,14 +7,14 @@ const HeroSection = () => {
   return (
     <>
       <div className={styles.hero}>
-        <div className="">
+        <div>
           <h1 className={styles.title}>{t.hero.title}</h1>
 
-          {/* <span className={styles.subTitle}>
+          <span className={styles.subTitle}>
             <strong>{t.about.companyName}</strong>
             <p>{t.hero.subtitle1}</p>
             <p>{t.hero.subtitle2}</p>
-          </span> */}
+          </span>
         </div>
       </div>
       <div className={styles.companyInfo}>

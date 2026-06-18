@@ -27,11 +27,17 @@
 
 .about .title {
   color: var(--blue);
-  font-size: 2.4rem;
-  margin: .5rem 0 1rem 0;
-}
+  font-size: 2rem;
+  margin: .5rem .5rem 1rem 0;
+    display: inline;
 
+}
+.about article{
+    display: inline;
+
+}
 .about p {
+  display: inline;
   color: var(--blue);
   font-size: 1.4rem;
   margin: .5rem 0 0 0;
@@ -51,14 +57,16 @@
 
 /* Tablets */
 @media (min-width: 768px) {
-  .about {
+  /* .about {
     flex-direction: row;
-  }
+  } */
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
-
+.about {
+    flex-direction: row;
+  }
   .about .aboutText,
   .about .imageCover {
     flex: 1 !important;

@@ -1,19 +1,28 @@
-.hero{
-    background: url(/src/assets/images/main-image.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.hero {
+    position: relative;
     width: 100%;
-    height: 100vh;
-
+    height: 75vh;
     display: flex;
     justify-content: end;
     align-items: end;
+    overflow: hidden;
 }
 
+/* Background image only */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(/src/assets/images/main-image.webp);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+
+    z-index: -1;
+}
 .hero .title{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 5%;
     max-width: 35rem;
     color: var(--white);
@@ -22,7 +31,7 @@
 }
 
 .hero .subTitle{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--blue);
     background: #ffffffc2;
     padding: 1rem;
@@ -34,11 +43,12 @@
         margin-right: 2.4rem;
 }
 .hero .subTitle strong{
-        margin-bottom: 1rem;
-        display: block;
+        margin: .5rem;
+        display: inline;
 }
 .hero .subTitle p{
-line-height: 1.4;
+    display: inline;
+line-height: 1.2;
     margin-bottom: 0.5rem;
 }
 
@@ -77,6 +87,9 @@ margin-bottom: 1rem;
         margin-left: 2rem;
 
 }
+html[lang="ar"] .hero::before{
+    transform: scaleX(-1);
+}
 html[lang="ar"] .hero .subTitle{margin-right: auto;    margin-left: 2.4rem;
 }
 html[lang="ar"] .hero .title{right: 5%;}
@@ -92,8 +105,13 @@ html[lang="ar"] .hero .title{right: 5%;}
 
 /* Tablets */
 @media (max-width: 768px) {
-.hero{
+    .hero{
         height: 60vh;
+    }
+.hero::before{
+        background-position: center;
+            background-size: cover;
+
 }
 .hero .title{
     top: 15%;
@@ -114,6 +132,12 @@ html[lang="ar"] .hero .title{right: 5%;}
 
 /* Desktop */
 @media (min-width: 1024px) {
+.hero{
+        height: 100vh;
+    }
+    .hero::before{
+        background-size: cover;
+    }
 
 }
 @media (min-width: 1280px) {
@@ -121,5 +145,8 @@ html[lang="ar"] .hero .title{right: 5%;}
 }
 /* Large screens */
 @media (min-width: 1536px) {
-
+.hero::before{
+    background-position: center;
+            background-size: cover;
+}
 }

@@ -14,7 +14,7 @@ const content = {
       title:
         "Empowering modern Saudi Startups and SMEs with Smart IT Solutions",
       subtitle1:
-        "TAQNIAT ALMONSHAAT ALTHAKIYAH is a dynamic and innovative IT services provider founded in the heart of Saudi Arabia, dedicated to empowering startups, Small and Medium-sized Enterprises (SMEs) in their digital journey.",
+        "is a dynamic and innovative IT services provider founded in the heart of Saudi Arabia, dedicated to empowering startups, Small and Medium-sized Enterprises (SMEs) in their digital journey.",
       subtitle2:
         "Aligned with the ambitious goals of Saudi Vision 2030, we offer a comprehensive suite of IT services and solutions designed to enhance efficiency, foster growth, and drive innovation within the Kingdom's dynamic business ecosystem. From foundational IT infrastructure to cutting-edge AI & Cloud solutions, our expertise ensures our clients are well-equipped to compete and thrive in the digital age.",
       vision: {

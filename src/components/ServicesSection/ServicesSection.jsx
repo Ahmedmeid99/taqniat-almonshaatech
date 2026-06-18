@@ -153,7 +153,7 @@ const ServicesSection = () => {
               </div>
               <div className={styles.accentBar} />
               <div className={styles.cardContent}>
-                <h4>{service.title}</h4>
+                <h4>{service.title} :</h4>
                 <p>{service.description}</p>
                 {/* {service.tags?.length > 0 && (
                   <ul className={styles.tags}>
