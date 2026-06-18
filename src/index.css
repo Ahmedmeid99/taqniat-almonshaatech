@@ -1,0 +1,120 @@
+:root {
+  --text: #6b6375;
+  --color-cyan-400:#00d3f3;
+  --color-cyan-600:#0092b8;
+  --color-cyan-500:#00b8db;
+  --color-cyan-50:#ecfeff;
+  --color-blue-700:#1447e6;
+  --color-blue-600:#155dfc;
+  --color-slate-200:#e2e8f0;
+  --color-slate-400:#90a1b9;
+  --color-slate-800:#1d293d;
+  --color-slate-900:#0f172b;
+
+  --white:#fff;
+  --black:#000;
+  --blue:#0070c0;
+  --blue-100:#0070c02d;
+  --green:#0db458;
+  --green-100:#ccf0b3;
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+
+  --font-en: 'Poppins', Tahoma, sans-serif;
+  --font-ar: 'Cairo', Tahoma, sans-serif;
+  --font-tahoma: Tahoma, sans-serif;
+  --transition: 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root{}
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 56.25%;
+  scroll-behavior: smooth;
+      scroll-padding: 9rem;
+}
+
+body {
+  font-family: var(--font-en);
+}
+
+/* Apply Cairo font for Arabic */
+html[lang="ar"] body {
+  font-family: var(--font-ar);
+  letter-spacing: 0;
+}
+ul{
+  list-style: none;
+}
+ a {
+  text-decoration: none !important;
+  font-family: inherit;
+  font-size: inherit;
+}
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
+p{
+  line-height: 1.4;
+}
+img,image{
+      max-width: 100%;
+      display: block;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+/* Small tablets */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding: 0 2.4rem;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  html {
+  font-size: 62.5%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    /* padding: 0 3.2rem; */
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+/* Large screens */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1460px;;
+  }
+}
+

@@ -1,0 +1,86 @@
+.btn {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  left: auto;
+  width: 4rem;
+  height: 4rem;
+  /* border-radius: 50%; */
+    border-radius: .65rem;
+  background: linear-gradient(135deg, var(--color-blue-600), var(--color-cyan-500));
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 24px rgba(21, 93, 252, 0.3), 0 4px 12px rgba(0, 184, 219, 0.2);
+  z-index: 9999;
+  outline: none;
+
+  /* Hidden state */
+  opacity: 0;
+  transform: translateY(24px) scale(0.75);
+  pointer-events: none;
+
+  /* Spring animation for enter/exit */
+  transition:
+    opacity 0.45s cubic-bezier(0.34, 1.56, 0.64, 1),
+    transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+/* Visible state – triggered by JS adding .visible class */
+.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+/* RTL position – bottom-left instead of bottom-right */
+.rtl {
+  right: auto;
+  left: 3rem;
+}
+
+/* Hover: float up + glow */
+.btn:hover {
+  transform: translateY(-5px) scale(1.08);
+  box-shadow: 0 14px 28px rgba(21, 93, 252, 0.4), 0 8px 18px rgba(0, 184, 219, 0.3);
+  background: linear-gradient(135deg, #1243d4, #00a8cc);
+}
+
+/* Click feedback */
+.btn:active {
+  transform: translateY(-1px) scale(0.95);
+  transition-duration: 0.1s;
+}
+
+/* The SVG icon */
+.icon {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  flex-shrink: 0;
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Micro-animation: arrow floats up on hover */
+.btn:hover .icon {
+  transform: translateY(-3px);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .btn {
+    bottom: 2rem;
+    right: 2rem;
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+  .rtl {
+    right: auto;
+    left: 2rem;
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "en": {
+    "title": "Our Comprehensive IT Services",
+    "items": [
+      {
+        "id": "emerging",
+        "title": "Emerging Technologies",
+        "description": "We empower businesses to leverage the power of Artificial Intelligence, Data Management, and Automation to drive innovation, gain actionable insights, and streamline operations.",
+        "image": "/images/Emerging Technology.png",
+        "tags": ["Artificial Intelligence", "Data Management", "Automation"]
+      },
+      {
+        "id": "infrastructure",
+        "title": "Modern Infrastructure",
+        "description": "Our Cloud Solution offerings provide scalable and secure infrastructure, while our Voice Solutions provide advanced communications to keep businesses connected.",
+        "image": "/images/Modern Infrastructure.png",
+        "tags": ["Cloud Solutions", "Voice Solutions", "Scalability"]
+      },
+      {
+        "id": "guidance",
+        "title": "Strategic Guidance",
+        "description": "We provide strategic advice and expert guidance on technology deployment and digital evolution, ensuring alignment with business objectives.",
+        "image": "/images/Strategic Guidance.png",
+        "tags": ["Strategic Advice", "Technology Deployment", "Digital Evolution"]
+      },
+      {
+        "id": "digital",
+        "title": "Digital Presence & Engagement",
+        "description": "We craft compelling digital experiences through professional Website Development and intuitive Mobile Application Development, ensuring our clients can effectively reach & engage their target audiences.",
+        "image": "/images/Digital Presence & Engagement.png",
+        "tags": ["Website Development", "Mobile App Development", "UI/UX Design"]
+      },
+      {
+        "id": "custom",
+        "title": "Custom Solutions & Integration",
+        "description": "Our expertise in Application Development, System Integrations, and SaaS Implementation allows us to build bespoke solutions & seamlessly connect disparate systems, creating unified & efficient operational workflows.",
+        "image": "/images/Custom Solutions & Integration.png",
+        "tags": ["Application Development", "System Integrations", "SaaS Implementation"]
+      },
+      {
+        "id": "core",
+        "title": "Core IT Services",
+        "description": "We provide the essential building blocks for any modern business, including Basic IT Setup, IT Infrastructure Setup, IT Support and IT Managed Services, ensuring stable, secure, and reliable operations.",
+        "image": "/images/Core IT Services.png",
+        "tags": ["Basic IT Setup", "Infrastructure Setup", "IT Managed Services"]
+      }
+    ]
+  },
+  "ar": {
+    "title": "خدماتنا الشاملة لتقنية المعلومات",
+    "items": [
+      {
+        "id": "emerging",
+        "title": "التقنيات الناشئة",
+        "description": "نمكن الشركات من الاستفادة من قوة الذكاء الاصطناعي وإدارة البيانات والأتمتة لدفع الابتكار، والحصول على رؤى قابلة للتنفيذ، وتبسيط العمليات.",
+        "image": "/images/Emerging Technology.png",
+        "tags": ["الذكاء الاصطناعي", "إدارة البيانات", "الأتمتة الذكية"]
+      },
+      {
+        "id": "infrastructure",
+        "title": "البنية التحتية الحديثة",
+        "description": "توفر عروض الحلول السحابية لدينا بنية تحتية قابلة للتطوير وآمنة، بينما توفر حلول الصوت اتصالات متقدمة للحفاظ على اتصال الشركات.",
+        "image": "/images/Modern Infrastructure.png",
+        "tags": ["الحلول السحابية", "حلول الصوت الذكية", "قابلية التوسع"]
+      },
+      {
+        "id": "guidance",
+        "title": "التوجيه الاستراتيجي",
+        "description": "نقدم المشورة الاستراتيجية والتوجيه الخبير بشأن نشر التكنولوجيا والتطور الرقمي، مما يضمن التوافق مع أهداف العمل.",
+        "image": "/images/Strategic Guidance.png",
+        "tags": ["الاستشارات التقنية", "نشر التكنولوجيا", "التحول الرقمي"]
+      },
+      {
+        "id": "digital",
+        "title": "التواجد والتفاعل الرقمي",
+        "description": "نصنع تجارب رقمية مقنعة من خلال تطوير المواقع المهنية وتطوير تطبيقات الهاتف المحمول البديهية، مما يضمن لعملائنا الوصول والتفاعل الفعال مع جمهورهم المستهدف.",
+        "image": "/images/Digital Presence & Engagement.png",
+        "tags": ["تطوير مواقع الويب", "تطبيقات الهاتف المحمول", "تصميم واجهة المستخدم"]
+      },
+      {
+        "id": "custom",
+        "title": "الحلول المخصصة والتكامل",
+        "description": "تتيح لنا خبرتنا في تطوير التطبيقات وتكامل الأنظمة وتطبيق البرمجيات كخدمة (SaaS) بناء حلول مخصصة وربط الأنظمة المتباينة بسلاسة، مما يخلق سير عمل تشغيلي موحد وفعال.",
+        "image": "/images/Custom Solutions & Integration.png",
+        "tags": ["تطوير التطبيقات الخاصة", "تكامل الأنظمة", "حلول SaaS"]
+      },
+      {
+        "id": "core",
+        "title": "الخدمات الأساسية لتقنية المعلومات",
+        "description": "نحن نقدم اللبنات الأساسية لأي عمل حديث، بما في ذلك الإعداد الأساسي لتقنية المعلومات، وإعداد البنية التحتية لتقنية المعلومات، والدعم الفني والخدمات المدارة لتقنية المعلومات، مما يضمن عمليات مستقرة وآمنة وموثوقة.",
+        "image": "/images/Core IT Services.png",
+        "tags": ["إعداد تقنية المعلومات", "البنية التحتية للشبكات", "الخدمات المدارة"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+/* ── Wrapper ─────────────────────────────── */
+.heroTitleContainer {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  /* margin-bottom: 6.4rem; */
+  margin-bottom: 4.8rem;
+max-width: 67.2rem;
+}
+
+/* ── Title ───────────────────────────────── */
+
+.heroTitle{
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1.11;
+    color: var(--blue);
+    font-family: var(--font-poppins);
+    letter-spacing: -0.025em;
+    margin-bottom: 1.6rem;
+}
+.heroSubTitle{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--blue);
+}
+
+@media (max-width:768px) {
+    .heroTitle{
+        font-size: 3.2rem;
+    }
+    .heroSubTitle{
+        font-size: 1.6rem;
+    }
+}
+/* .title {
+  display: inline-block;
+  position: relative;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--blue);
+  text-align: center;
+  margin-bottom: 1.6rem;
+  padding: 0 3.2rem;
+} */
+
+
+/* ── Gradient underline bar ──────────────── */
+.underline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.underline::before,
+.underline::after {
+  content: '';
+  flex: 1;
+  max-width: 6rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--blue));
+  opacity: 0.4;
+}
+
+.underline::after {
+  background: linear-gradient(90deg, var(--blue), transparent);
+}
+
+.dot {
+  width: 3.2rem;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--green), var(--blue));
+}
+
+/* ── Subtitle ────────────────────────────── */
+/* .subTitle {
+  color: #64748b;
+  margin: 0 auto;
+  max-width: 56rem;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.75;
+} */
+
+@media (max-width:768px) {
+    .title{
+        font-size: 1.4rem;
+    }
+}
